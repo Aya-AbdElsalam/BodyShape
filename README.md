@@ -1,3 +1,16 @@
+# About the Project
+Simple Landing Page for a Gym
+
+👉 **Live Demo :** https://body-shape-eta.vercel.app/
+
+# The site
+![bodyShape](https://github.com/Aya-AbdElsalam/BodyShape/assets/152267387/1dd4c079-eb4d-4a05-8fb0-70bf513bbdab)
+
+# Tools
+- React.js
+- Tailwind CSS 
+- Aos library
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
