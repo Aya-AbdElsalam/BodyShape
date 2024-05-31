@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: all 2s ease;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  background-color: black;
+  font-family: 'Lucida Sans';
+  overflow-x: hidden;
+
+}
+
+.container {
+  z-index: 1;
+  position: relative;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+
+  /* small devices*/
+  .container {
+    max-width: 466px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media (min-width: 576px) {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* small devices*/
+  .container {
+    max-width: 540px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) {
+
+  /* medium devices*/
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  /* pc devices*/
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* large screen*/
+  .container {
+    max-width: 1140px;
   }
 }
